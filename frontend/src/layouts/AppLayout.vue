@@ -5,14 +5,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import AppLayoutHeader from '@/layouts/AppLayoutHeader.vue'
-export default {
-  name: 'AppLayout',
-  components: {
-    AppLayoutHeader
-  }
-}
 </script>
 
 <style scoped>
