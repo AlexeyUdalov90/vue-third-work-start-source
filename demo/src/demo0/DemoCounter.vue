@@ -24,6 +24,25 @@ const increment = () => {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.counter {
+  display: flex;
+  align-items: center;
 
+  button {
+    margin: 0 10px;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    background: #dd0000;
+    cursor: pointer;
+
+    &:hover {
+      background: #ff0000;
+    }
+  }
+}
 </style>
